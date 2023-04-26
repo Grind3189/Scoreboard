@@ -1,0 +1,51 @@
+
+body {
+    background: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+    font-size: 40px;
+    margin-bottom: 10px;
+     font-family: Verdana;
+}
+
+#home-point, #guest-point {
+   background: #080001;
+   color: #F94F6D;
+   font-size: 90px;
+   margin: 5px 0px 15px 0px;
+   width: 155px;
+   height: 110px;
+   font-family: score;
+   padding-top: 10px;
+  
+ 
+}
+
+.add1, .add2, .add3 {
+   padding: 11px 12px;
+   background: #1B244A;
+   border: 2px solid #9AABD8;
+   border-radius: 5px;
+   color: #9AABD8;
+   font-family: score;
+   
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+@font-face {
+    src: url("scoreboard.ttf");
+    font-family: score;
+}
